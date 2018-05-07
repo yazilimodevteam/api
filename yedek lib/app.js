@@ -36,15 +36,8 @@ var server = _http2.default.createServer(app);
 
 var socketIo = (0, _socket2.default)(server);
 
-const { Pool, Client } = require('pg')
 
-const client = new Client({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'realtime_message',
-  password: 'qwer1234',
-  port: 5432,
-})
+
 
 client.connect(function(err) {
 	  if (err) throw err;
