@@ -42,7 +42,10 @@
     "eslint": "^2.7.0",
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-react": "^4.3.0",
+    "express-session": "^1.15.6",
     "istanbul": "^0.4.3",
+    "node-session": "^1.2.1",
+    "parse-formdata": "^1.0.2",
     "pg": "^7.4.3"
   }
 }
